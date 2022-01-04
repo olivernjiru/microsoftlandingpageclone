@@ -13,3 +13,66 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
+
+body {
+    font-family: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif';
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+a {
+    color: #262626;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    /* To give it even margins on the side and put it in the middle */ 
+    margin: auto;
+}
+
+/* Nav */
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 13px;
+}
+
+.main-nav .logo {
+    width: 100px;
+}
+
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav ul li {
+    /* Padding top and bottom is zero while left and right is 10px */ 
+    padding: 0 10px;
+}
+
+.main-nav ul li a {
+    padding-bottom: 2px;
+}
+
+.main-nav ul li a:hover {
+    border-bottom: 2px solid #262626;
+}
+
+/* We go to main-nav then take the ul with the class main-menu */
+.main-nav ul.main-menu {
+    /* To bring it close to the margin logo */
+    flex: 1;
+    /* To push it a bit futher from the Microsoft Logo */
+    margin-left: 20px;
+}
