@@ -159,3 +159,17 @@ ul {
 .xbox p {
     margin: 10 0 20px;
 }
+
+/* Carbon */
+.carbon {
+    height: 350px;
+    width: 100%;
+    /* background-repeat property, background position, background-size */
+    background: url(assets/carbon.jpg) no-repeat center center/cover;
+}
+
+.carbon .content {
+    width: 55%;
+    padding: 100px 0 0 30px;
+    
+}
