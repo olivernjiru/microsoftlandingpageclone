@@ -269,7 +269,7 @@ ul {
 }
 
 /* Media queries for smaller screens */
-@media(max-width: 700px) {
+@media(max-width: 768px) {
     .menu-btn {
     display: block;
     }
@@ -335,7 +335,7 @@ ul {
     }
 }
 
-@media(max-width: 500px) {
+@media(max-width: 375px) {
     .home-cards {
         /* We dont need no repeat since we are using one fractional unit */
         grid-template-columns: 1fr;
