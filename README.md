@@ -4,5 +4,5 @@
 <p>HTML, CSS, JavaScript</p>
 
 <h3>New Stuff Learned</h3>
-<p>Opacity, more about the grid and css styling</p>
+<p>Opacity, more about the grid and css styling, operating with JS hamburger</p>
 <p>Source: https://www.youtube.com/watch?v=uKgn-To1C4Q</p>
